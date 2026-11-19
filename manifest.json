@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Study Tools",
+  "version": "0.1",
+  "description": "Study helper extension",
+  "permissions": ["storage", "contextMenus"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" }
+}
