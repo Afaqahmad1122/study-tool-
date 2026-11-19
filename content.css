@@ -1,0 +1,33 @@
+#urdu-dict-popup {
+  position: absolute;
+  z-index: 999999;
+  width: 280px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 12px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+#urdu-dict-popup h4 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #1a73e8;
+  text-transform: capitalize;
+}
+
+#urdu-dict-popup .urdu-text {
+  font-size: 18px;
+  color: #d93025;
+  margin-bottom: 8px;
+  direction: rtl; /* Right to left for Urdu */
+  font-weight: bold;
+}
+
+#urdu-dict-popup .definition {
+  color: #555;
+  line-height: 1.4;
+}
